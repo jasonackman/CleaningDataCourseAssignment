@@ -19,6 +19,7 @@ There are a number of steps that the run_analysis.R performs in order to obtain 
 
 ### Pre-Steps
 The following pre-steps are performed prior to processing the data.
+
 1. Defines standard variables. Verifies the data directory exists. If not, the data directory is created.
 2. Downloads and unzips the dataset from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 3. Reads the features.txt file to obtain the list of variables.
